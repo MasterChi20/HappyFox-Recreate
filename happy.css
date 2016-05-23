@@ -1,48 +1,15 @@
+/* For the entire document*/
+
 body
 {
 	background-color: rgb(247,229,193);
 	font-family : arial;
 }
 
-.navbarCustom.navbar
-{
-	background-color: rgb(51,51,51);
-	font-size: 10px ;
-	min-height: 10px ;
-	max-height: 100px ;
-}
-.navbarCustom.top.firstUl>li>a
-{
-	padding-top: 0px ;
-	padding-bottom: 0px ;
-	min-height: 5px ;
-	max-height: 1000px ;
-	height :10px;
-}
-
-#navbarBottom
-{
-	background-color: rgb(255,255,255);
-}
-
-#whiteRow
-{
-	height : 100px;
-	padding-top: 0px ;
-}
-
 img
 {
 	padding-top: 25px ;
 }
-
-#freeTrial
-{
-	background-color:rgb(232,72,40)!important;
-	color : rgb(255,255,255) ;
-	margin-top: 15px ;
-}
-
 
 h5
 {
@@ -51,57 +18,36 @@ h5
 	text-align: center ;
 }
 
-.second
+hr
 {
-	padding-top: 30px ;
+    height: 1px;
+    background-color:#555;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 80%;
 }
 
-.bottomNavigation
+
+
+
+
+/*Properties related to first navbar*/
+
+.navbarCustom.navbar
 {
-	height : 90px ;
-	margin-top: 50px;
-}
-#image1
-{
-	margin-left: 88px ;
+	background-color: rgb(51,51,51);
+	font-size: 10px ;
+	min-height: 10px ;
+	max-height: 100px ;
 }
 
-.mainNav
+.navbarCustom.top.firstUl>li>a
 {
-	padding-top: 10px ;
-	padding-right: 125px ;
-}
-
-#jumbosaur
-{
-	padding-bottom: 10px ;
-	text-align: center ;
-	background-color: rgb(247,229,193);
-	margin-top: 150px ;
-}
-#free
-{
-	background-color:rgb(232,72,40)!important;
-	color : rgb(255,255,255) ;
-}
-
-#mega
-{
-	font-size: 40px; 
-}
-
-#desktop
-{
-	position: absolute;
-	margin-left: 75px ;
-	z-index: -1 ;
-}
-#mobile
-{
-	position: absolute;
-	z-index: 1 ;
-	margin-top: 120px ;
-	margin-left: 850px ;
+	padding-top: 0px ;
+	padding-bottom: 0px ;
+	min-height: 5px ;
+	max-height: 1000px ;
+	height :10px;
 }
 
 .firstUl
@@ -119,15 +65,88 @@ h5
 	background-color: rgb(51,51,51);
 	color : gray ;
 }
+
+
+
+
+
+/*Properties related to the second navbar*/
+
+.bottomNavigation
+{
+	height : 90px ;
+	margin-top: 50px;
+	background-color: rgb(255,255,255);
+}
+
+.image1
+{
+	margin-left: 88px ;
+}
+
+.mainNav
+{
+	padding-top: 10px ;
+	padding-right: 125px ;
+}
+
 .mainNav>li>a>h5:hover
 {
 	color:rgb(232,72,40);
 }
 
-.theBest
+.freeTrial
 {
-	align : center ;
+	background-color:rgb(232,72,40)!important;
+	color : rgb(255,255,255) ;
+	margin-top: 15px ;
 }
+
+
+
+
+
+/* Related to jumbotron and orange division*/
+
+.jumbosaur
+{
+	padding-bottom: 10px ;
+	text-align: center ;
+	background-color: rgb(247,229,193);
+	margin-top: 150px ;
+}
+
+.mega
+{
+	font-size: 40px !important; 
+}
+
+.free
+{
+	background-color:rgb(232,72,40)!important;
+	color : rgb(255,255,255) ;
+}
+
+.desktop
+{
+	position: absolute;
+	margin-left: 75px ;
+	z-index: -1 ;
+}
+
+.mobile
+{
+	position: absolute;
+	z-index: 1 ;
+	margin-top: 120px ;
+	margin-left: 850px ;
+}
+
+
+
+
+
+/*This is related to the container containg awards and recognized customers*/
 
 .bestContainer
 {
@@ -136,11 +155,11 @@ h5
 	align-items: center ;
 	height : 550px;
 }
-
 .theBest
 {
 	margin-top: 30px ;
 	margin-left: 40px ;
+		align : center ;
 }
 
 .happyCustomers
@@ -156,13 +175,11 @@ h5
 	margin-left: 260px ;
 }
 
-.hr1 {
-    height: 1px;
-    background-color:#555;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 80%;
-}
+
+
+
+
+/*This is related to the division between the two horizontal rules.*/
 
 .para
 {
@@ -179,17 +196,23 @@ h5
 	font-size: 18px ;
 }
 
-.improve
-{
-	margin-top: 50px ;
-	font-size : 40px ;
-	text-align: center ;
-}
+
+
+
+
+/*This is related to the statistics division and the chat demo.*/
 
 .improveDiv
 {
 	background-color: white ;
 	height : 800px ;
+}
+
+.improve
+{
+	margin-top: 50px ;
+	font-size : 40px ;
+	text-align: center ;
 }
 
 .tourLink
@@ -242,115 +265,4 @@ h5
 .customer
 {
 	margin-left: 800px ;
-}
-
-.helpDiv
-{
-	background-color: white ;
-	height: 500px ; 
-
-
-}
-
-.help
-{
-	font-size: 40px;
-	text-align: center ;
-	color:black; 
-	margin-top: 50px ;
-}
-
-.implementation
-{
-	text-align: center ;
-	font-size: 18px ;
-	margin-top: 20px ;
-
-}
-
-.icon1
-{
-	margin-top: 100px ;
-	margin-left: 400px ;
-}
-
-.icon2
-{
-	margin-left: 400px ;
-}
-
-.icon3
-{
-	margin-left: 400px ;
-}
-
-.icon4
-{
-	margin-left: 600px ;
-}
-
-.icon5
-{
-	margin-left: 600px ;
-}
-
-.icon6
-{
-	margin-left: 600px ;
-}
-
-.heading1
-{
-	margin-left: 475px ;
-	margin-top: -60px ;
-}
-.sub1
-{
-	margin-left: -325px ;
-	margin-top: -5px ;
-}
-
-.heading2
-{
-	margin-left: 475px ;
-}
-.sub2
-{
-	
-}
-
-.heading3
-{
-	margin-left: 475px ;
-}
-.sub3
-{
-	
-}
-
-.heading4
-{
-	
-}
-.sub4
-{
-	
-}
-
-.heading5
-{
-
-}
-.sub5
-{
-	
-}
-
-.heading6
-{
-
-}
-.sub6
-{
-	
 }
